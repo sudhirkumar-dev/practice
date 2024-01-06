@@ -1,0 +1,84 @@
+/* .question-form {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    padding: 15px;
+}
+.question-form .question-form-button {
+    display: flex;
+    justify-content: center;
+}
+.question-form button {
+    border: none;
+    display: block;
+    width: 120px;
+    padding: 8px 4px;
+    border: 1px solid #bbb;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: aquamarine;
+    transition: all .2s ease-in-out;
+}
+.question-form button:hover {
+    background-color: rgb(70, 201, 157);
+}
+
+.question-form .questions label{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.question-form .questions label p{
+    margin: 0px;
+    display: inline-block;
+    width: 85%;
+    word-wrap: break-word;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.question-form .date-box {
+    border: 1px solid #bbb;
+    padding: 10px;
+
+} */
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .forms-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .form-enter {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  
+  .form-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  .form-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .form-exit-active {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 500ms, transform 500ms;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
